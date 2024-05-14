@@ -10,8 +10,8 @@ import rl "vendor:raylib"
 // A port of https://github.com/epsilon-phase/raylib-experiments/blob/canon/src/rain/main.c
 
 SCREEN_TITLE :: "Rain"
-SCREEN_WIDTH :: 800
-SCREEN_HEIGHT :: 450
+SCREEN_WIDTH :: 480
+SCREEN_HEIGHT :: 640
 
 MIN_ANGLE :: -10
 MAX_ANGLE :: 10
@@ -20,7 +20,7 @@ MIN_MAGNITUDE :: 5.0
 MAX_SPEED :: 5.0
 MIN_SPEED :: 3.0
 MAX_VERTICAL_SPAWN :: 40
-RAINDROP_COUNT :: 250
+RAINDROP_COUNT :: 1000
 
 raindrop_colors := [?]rl.Color {rl.DARKBLUE, rl.DARKGRAY, rl.BLUE, rl.GREEN}
 raindrop_color := 0
