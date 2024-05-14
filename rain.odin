@@ -88,10 +88,6 @@ main :: proc() {
 	rl.InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, SCREEN_TITLE)
 	defer rl.CloseWindow()
 
-	ballPosition: rl.Vector2 = {f32(SCREEN_WIDTH / 2), f32(SCREEN_HEIGHT / 2)}
-	ballSpeed: rl.Vector2 = {5.0, 4.0}
-	ballRadius := 20
-
 	pause := false
 	framesCounter := 0
 
